@@ -11,7 +11,7 @@ const [ount, setCoutn]= UseState(
 +__________________
 simple way
 setCoutn(1000)
-Base on current state ( call back function it must be pure and retur next state)
+Base on current state ( call back function it must be pure and return next state)
 setCoutn((c) => c+1)
 
 Refs
@@ -75,7 +75,7 @@ Types of state (accessibility): Local vs global
  1.Local State
   **Needed only by one or few components
   **Only accessible in component and child components
-  
+
  2.Global State
   **Might be needed by many components
   **Accessible to every component in the application 
