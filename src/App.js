@@ -28,6 +28,7 @@ function App() {
       >
         {isFakeDark ? "☀️" : "🌙"}
       </button>
+
       <PostProvider>
         <Header />
         <Main />
